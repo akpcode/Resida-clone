@@ -1,11 +1,6 @@
-import React from 'react'
-
-const Index = () => {
-  return (
-    <div>
-      Index
-    </div>
-  )
-}
-
-export default Index;
+import ContactPage from "./contact";
+import LandingPage from "./landingPage";
+export {
+  ContactPage,
+  LandingPage
+};
