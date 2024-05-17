@@ -1,28 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Header from './shared/header';//absolute import using jsconfig.js
-import Footer from './shared/footer';
+// import Header from './shared/header';//absolute import using jsconfig.js
+// import Footer from './shared/footer';
+import  LandingPage  from "../src/views/landingPage";
 
 function App() {
   return (
     <div className="App">
+      <LandingPage />
       
-      <Header /> 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Footer />
     </div>
   );
 }

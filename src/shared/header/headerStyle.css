@@ -3,7 +3,7 @@
 } */
 
 .header_container{
-    height: 69px;
+    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
