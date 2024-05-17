@@ -13,12 +13,16 @@ const HeroSection = () => {
         <span>Eliminate stressful house searches. We link you with the Lagos's finest and most affordable residences.<strong>Zero agent fees, middle man payments & hassles</strong></span>
        <div className='btn_container'>
         {/* This inline style is use to set the button to the same size */}
-       <Button style={{
-         width:"30%"
-       }} btnName={"Download our app"} />
-       <Button style={{
-         width:"30%"
-       }} outline btnName={"Learn more"} />
+       <Button 
+    //    style={{
+    //      width:"32%"
+    //    }} 
+       btnName={"Download our app"} />
+       <Button 
+    //    style={{
+    //      width:"32%"
+    //    }} 
+       outline btnName={"Learn more"} />
        </div>
        
     </div>

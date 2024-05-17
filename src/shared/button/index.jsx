@@ -1,8 +1,8 @@
 import React from 'react'
 import './buttonStyle.css'
-const Button = ({style, btnName, outline }) => {
+const Button = ({style, id, btnName, outline }) => {
   return (
-      <button style={style} className={`${outline ? "outline" : "btn"}`}>
+      <button style={style} id className={`${outline ? "outline" : "btn"}`}>
           {btnName}
       </button>
   );
