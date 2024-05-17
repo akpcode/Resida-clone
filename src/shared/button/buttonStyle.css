@@ -10,6 +10,10 @@
     color: #1f4b43;
     cursor: pointer;
     font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
 }
 .outline:hover, .btn:hover{
     opacity: 0.7;
@@ -26,9 +30,19 @@
     color: #fff;
     cursor: pointer;
     font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    
 }
 
-@media (max-width: 768px) {
+.right_icon, .left_icon{
+    margin-top: 4px;
+}
+
+
+@media (max-width: 841px) {
     .btn{
         padding: 10px;
         font-size: 11px;

@@ -1,4 +1,5 @@
 import HeroSection from 'components/heroSection';
+import SubHeroSection from 'components/subHeroSection';
 import React from 'react'
 // import './landingPage.css'
 import Header from 'shared/header';
@@ -8,6 +9,7 @@ const LandingPage = () => {
     <div>
       <Header />
       <HeroSection />
+      <SubHeroSection />
        {/* <InfoCard /> */}
     </div>
   )

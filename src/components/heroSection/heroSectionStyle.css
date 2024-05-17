@@ -48,7 +48,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 841px) {
     .hero_section_container{
         height: 92vh;
         width: 100vw;
