@@ -1,5 +1,6 @@
 import FindYourSpace from 'components/findYourSpace';
 import HeroSection from 'components/heroSection';
+import InfoCard from 'components/infocard';
 import OurExperience from 'components/ourExperience';
 import SubHeroSection from 'components/subHeroSection';
 import React from 'react'
@@ -12,7 +13,7 @@ const LandingPage = () => {
       <Header />
       <HeroSection />
       <SubHeroSection />
-        {/* <InfoCard /> */}
+      <InfoCard />
       <OurExperience />
       <FindYourSpace />
      
