@@ -8,7 +8,8 @@ import guidemap from "../../assets/guide-map.jpg"
 import React from 'react'
 // import './landingPage.css'
 import Header from 'shared/header';
-// import FeaturedProperties from 'shared/featuredProperties';
+import FeaturedPropertie from 'components/featuredProperties';
+
 const LandingPage = () => {
   return (
     <div>
@@ -41,7 +42,7 @@ const LandingPage = () => {
         button={true}
         infoStyle={"info_guide"}
       />
-     {/* <FeaturedProperties /> */}
+    <FeaturedPropertie />
     </div>
   )
 }

@@ -12,6 +12,13 @@ function InfoCard ({title, subtitle, body, image, imageStyle, imageHeight, butto
         </div>
         <div className='info_description'>
           <div className={infoStyle}>
+            {/* {circle && (
+              <div className='info_circle'>
+                {
+                  
+                }
+              </div>
+            )} */}
             <h2 className='info_title'>{title}</h2>
             <h2 className='info_subtitle'>{subtitle}</h2>
             <p className='info_body'>{body}</p>
