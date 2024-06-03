@@ -1,0 +1,70 @@
+.d_container {
+    padding: 8rem 10rem;
+    background-image: url("../../assets/Place.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 352px;
+}
+
+.text_holder{
+    height: auto;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9rem;
+    margin-top: -40px;
+   
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ffffff;
+    opacity: 100%;
+    line-height: 3.05rem;
+}
+
+.d_place_button {
+    width: 191.36px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 10px; 
+    margin-left: 23rem;
+  }
+
+  @media (max-width: 841px) {
+    .d_container {
+        flex-direction: column;
+        object-fit: cover;
+        padding: 2rem;
+        height: max-content;
+    }
+    .text_holder{
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        margin: 1rem auto;   
+    }
+
+    h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: #ffffff;
+        opacity: 100%;
+        line-height: 3.05rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .d_place_button {
+        width: 80%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin: 1rem auto; 
+      }
+  }

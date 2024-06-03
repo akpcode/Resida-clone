@@ -33,8 +33,7 @@
     gap: 12px;
 }
 .boxes_container {
-
-   position: relative;
+    position: relative;
     justify-content: space-between;
 }
 .svg_2{
@@ -43,9 +42,9 @@
     bottom: 2.5rem;
 }
 /* boxes */
-.box1, 
-.box2,
- .box3{
+    .box1, 
+    .box2,
+    .box3{
     border-radius: 10px;
     height: 60%;
     overflow: hidden;
