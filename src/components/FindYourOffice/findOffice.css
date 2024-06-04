@@ -1,0 +1,102 @@
+.main_container{
+        width:  100%;
+        height: auto;
+        overflow-x: hidden;
+        display: flex;
+    }
+    .inner_container{
+        width: 100%;
+        height: 100vh;
+        max-width: 85%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr );
+        column-gap: 8px;
+    }
+    .space_img_sec{
+        width: 90%;
+        height: 70%;
+        margin-top: 3rem;
+        margin-right: 2rem;
+        margin-left: 0%;
+        
+    }
+    .office_img{
+        width:85%;
+        height: auto;
+        
+       
+    }
+    .find_office_sec{
+        width: full;
+    }
+    .office_info{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+    .title{
+        text-align: left;
+        margin-top:7rem;
+        margin-bottom: 3rem;
+        margin-left: 0;
+        color: #1f4b43;
+    }
+
+    .subtitle{
+        text-align: left;
+        margin-left: 0;
+        color: #141115;
+    }
+
+    @media (max-width: 841px) {
+        .inner_container{
+            width: 100%;
+            height: 100vh;
+            max-width:100%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr );
+            column-gap: 8px;
+        }
+         .space_img_sec{
+            width: 100%;
+            height: 50vh;
+            margin-top: 2rem;
+            display: flex;
+            border: solid blue;
+            
+        }
+        .office_img{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-top: 10px;
+        } 
+        .find_office_sec{
+            width: full;
+            height: 40vh;
+        }
+        .office_info{
+            width: full;
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            
+        }
+        .title{
+            text-align: left;
+            margin-top:4rem;
+            margin-bottom: 1rem;
+            margin-left: 0;
+            color: #1f4b43;
+        }
+       
+    }

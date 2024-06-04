@@ -11,6 +11,7 @@ import Header from 'shared/header';
 import FeaturedPropertie from 'components/featuredProperties';
 import DiscoverPlace from 'components/DiscoverPlace';
 import grpG from "../../assets/grpG.svg"
+import FindYourOffice from 'components/FindYourOffice';
 const LandingPage = () => {
   return (
     <div>
@@ -60,6 +61,7 @@ const LandingPage = () => {
         reverse
       />
     <DiscoverPlace />
+    <FindYourOffice />
 
     </div>
   )
