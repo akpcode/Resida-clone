@@ -1,0 +1,132 @@
+.contact_page_cont{
+    width: 100%;
+    max-width: 90%;
+    height: 600px;
+    display: grid;
+    padding:0 20px;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    margin: 1rem;
+}
+.conc-form-container {
+    
+
+    padding: 20px;
+    background-color: #f4f4f9;
+    
+  }
+  
+  .contact-info {
+    width: 30%;
+    /* padding: 20px; */
+    background-color: #073b3a;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: solid blue;
+  }
+  .contact_content{
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    border: solid white;
+  }
+  
+  .contact-info h2 {
+    margin: 1rem;
+  }
+  
+   .conc_item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:1rem;
+  }
+  
+ .conc_item i {
+    margin-right: 15px;
+  } 
+  
+  .social-icons {
+    justify-content: flex-end;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10rem;
+    padding: 2rem;
+    border: solid red;
+  } 
+
+  .form_icon{
+    padding: 10px;
+  }
+  
+  .contact-form {
+    width: 70%;
+    /* padding: 20px; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 10px;
+    color: #1f4b43;
+  }
+  
+  .contact-form p {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    width: 100%;
+    resize: none;
+    height: 100px;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .radio-group input {
+    margin-right: 5px;
+  }
+  
+  .form_button {
+    background-color: #ffba08;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form_button:hover {
+    background-color: #ffa500;
+  }
+  
