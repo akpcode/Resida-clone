@@ -12,6 +12,8 @@ import FeaturedPropertie from 'components/featuredProperties';
 import DiscoverPlace from 'components/DiscoverPlace';
 import grpG from "../../assets/grpG.svg"
 import FindYourOffice from 'components/FindYourOffice';
+import DownloadApp from 'components/DownloadApp';
+import Footer from 'shared/footer';
 const LandingPage = () => {
   return (
     <div>
@@ -62,6 +64,8 @@ const LandingPage = () => {
       />
     <DiscoverPlace />
     <FindYourOffice />
+    <DownloadApp />
+    <Footer />
 
     </div>
   )

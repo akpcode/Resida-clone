@@ -1,3 +1,37 @@
 .footer-main{
-    border: 2px solid green;
+    background-color: '#1f4b43';
+    color: 'white';
+    padding: '20px 0';
 }
+
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.resida_section{
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer_icon{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin: 10px 0;
+}
+
+.footer_contact{
+    margin-top: 10px;
+}   
+  .footer_copyright {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #777;
+    padding-top: 10px;
+  }
+  

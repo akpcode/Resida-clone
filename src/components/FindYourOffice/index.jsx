@@ -1,5 +1,5 @@
 import React from 'react';
-import "./findOffice.css"
+import "./findOffice.css";
 import office from 'assets/office.svg';
 
 function FindYourOffice () {
@@ -11,8 +11,8 @@ function FindYourOffice () {
             </div>
             <div className='find_office_sec'> 
             <div className='office_info'>  
-                <h2 className='title'>Need an office space?</h2> 
-                <p className='subtitle'>Seeking office space in Lagos? Look no further! Our accommodations offer tailored solutions to meet your workspace needs, ensuring productivity and comfort in the heart of Lagos</p>
+                <h2 className='office_title'>Need an office space?</h2> 
+                <p className='office_subtitle'>Seeking office space in Lagos? Look no further! Our accommodations offer tailored solutions to meet your workspace needs, ensuring productivity and comfort in the heart of Lagos</p>
             </div>
             </div>
       </div>

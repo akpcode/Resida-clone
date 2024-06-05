@@ -1,0 +1,112 @@
+.footer_container{
+    border: solid red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #1f4b43;
+}
+
+.resida_section{
+    flex: 1;
+    max-width: 500px;
+    border: solid green;
+    padding-left:3.5rem;
+}
+
+.footer_icons{
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    margin-left: 6rem ;
+    border: solid blue;
+}
+
+.footer_section{
+        flex: 1;
+        max-width: 190px;
+        margin: 0;
+        border: solid #fff;
+      
+}
+.footer_contact{
+    text-align: left;
+    margin-top: 10px;
+    padding: 0 4rem;
+    border: solid purple;
+}   
+  .footer_copyright {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 10px;
+    border-top: 1px solid #777;
+    padding-left:  4rem;
+    margin-bottom: 1rem;
+  }
+  p span{
+    padding-right: 4px;
+    padding-left: 4px;
+    /* padding-bottom:  -56x; */
+  }
+  @media (max-width: 841px) {
+    .footer-main{
+        max-width: 100%;
+        height: 100%;
+        border: solid green;
+        padding: 0 25px;
+        background-color: #1f4b43;
+        color: #fff;
+    }
+    .footer_container{
+        border: solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 100%;
+        height: 70%;
+        margin-top:1rem;
+        background-color: #1f4b43;
+    }
+    .resida_section{
+        align-items: flex-start;
+        max-width: 100%;
+        padding-left: 0;
+        margin-bottom: 1rem;
+        border: solid green;
+    }
+    .footer_icons{
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        margin-top: 1rem;
+        margin-left: 0;
+        /* margin-left: 6rem ; */
+        border: solid blue;
+    }
+    .footer_section{
+        align-items: center;
+        width: 100%;
+        margin: 0 4rem;
+        border: solid #fff;
+      
+}
+.footer_contact{
+    margin-top: 10px;
+    display: block;
+    border: solid purple;
+}  
+.footer_copyright {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10px;
+    border-top: 1px solid #777;
+    margin-left: 0;
+    border: solid #fff;
+    
+  }
+  }

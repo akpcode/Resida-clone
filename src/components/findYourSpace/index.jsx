@@ -25,7 +25,7 @@ const FindYourSpace = () => {
                 fontWeight: "bold",
                 borderRadius: '10px',
                 padding: "12px 34px",
-                backgroundColor: '#fff',              
+                backgroundColor: '#fff'              
             }} 
             btnName="Download app"
           />
