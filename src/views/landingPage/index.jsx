@@ -66,7 +66,7 @@ const LandingPage = () => {
     <DiscoverPlace />
     <FindYourOffice />
     <DownloadApp />
-    <ContactForm />
+    {/* <ContactForm /> */}
     <Footer />
 
 
