@@ -14,7 +14,7 @@ import grpG from "../../assets/grpG.svg"
 import FindYourOffice from 'components/FindYourOffice';
 import DownloadApp from 'components/DownloadApp';
 import Footer from 'shared/footer';
-import ContactForm from 'components/ContactForm';
+// import ContactForm from 'components/ContactForm';
 const LandingPage = () => {
   return (
     <div>

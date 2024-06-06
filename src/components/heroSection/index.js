@@ -14,10 +14,10 @@ const HeroSection = () => {
        <div className='btn_container'>
         {/* This inline style is use to set the button to the same size */}
        <Button 
-    //    style={{
-    //      width:"32%"
-    //    }} 
-       btnName={"Download our app"} />
+       style={{
+          color: "#ffffff"
+       }} 
+       btnName={"Download our app" } />
        <Button 
     //    style={{
     //      width:"32%"

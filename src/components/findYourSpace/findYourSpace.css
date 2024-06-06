@@ -34,6 +34,7 @@
  .fyp_button{
      margin-top: 2rem;
      width: 40%;
+     color: #1f4b43;
  }
 
  @media (max-width: 841px) {
@@ -70,22 +71,4 @@
   
 
 }
- /* @media (max-width: 841px) {
-    .fyp_container {
-        padding: 4rem 5rem;
-    }
-
-    .fyp_image_sec,
-    .fyp_text_sec {
-        flex-basis: 100%;
-    }
-
-    .fyp_text_sec div p,
-    .fyp_text_sec div span {
-        font-size: 24px;
-    }
-
-    .fyp_button {
-        margin-top: 1rem;
-    }
-} */
+ 

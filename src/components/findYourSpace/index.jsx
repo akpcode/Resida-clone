@@ -21,7 +21,7 @@ const FindYourSpace = () => {
             style={{
                 width: "100%",
                 fontSize:"10px",
-                color:'#1b2056',
+                color:'#ccc',
                 fontWeight: "bold",
                 borderRadius: '10px',
                 padding: "12px 34px",

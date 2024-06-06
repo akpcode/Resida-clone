@@ -1,17 +1,21 @@
+.footer-main{
+    background-color: #1f4b43;
+    color: #fff;
+}
 .footer_container{
-    border: solid red;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #1f4b43;
+ 
 }
 
 .resida_section{
+    text-align: left;
+    margin-top: 1rem;
     flex: 1;
     max-width: 500px;
-    border: solid green;
     padding-left:3.5rem;
 }
 
@@ -19,22 +23,23 @@
     display: flex;
     justify-content: space-between;
     width: 190px;
-    margin-left: 6rem ;
-    border: solid blue;
+    margin-left: 3rem ;
+    margin-top: 5px;
+   
 }
 
 .footer_section{
+        margin: 1rem;
+        text-align: left;
         flex: 1;
         max-width: 190px;
-        margin: 0;
-        border: solid #fff;
-      
+             
 }
 .footer_contact{
     text-align: left;
     margin-top: 10px;
     padding: 0 4rem;
-    border: solid purple;
+   
 }   
   .footer_copyright {
     display: flex;
@@ -60,7 +65,6 @@
         color: #fff;
     }
     .footer_container{
-        border: solid red;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -83,19 +87,16 @@
         margin-top: 1rem;
         margin-left: 0;
         /* margin-left: 6rem ; */
-        border: solid blue;
     }
     .footer_section{
         align-items: center;
         width: 100%;
         margin: 0 4rem;
-        border: solid #fff;
       
 }
 .footer_contact{
     margin-top: 10px;
     display: block;
-    border: solid purple;
 }  
 .footer_copyright {
     width: 100%;
@@ -106,7 +107,6 @@
     margin-top: 10px;
     border-top: 1px solid #777;
     margin-left: 0;
-    border: solid #fff;
     
   }
   }
