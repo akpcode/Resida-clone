@@ -8,6 +8,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 10rem;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
 }
 
 .header_cta_section {

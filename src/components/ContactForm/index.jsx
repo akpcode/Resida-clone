@@ -1,9 +1,10 @@
 import React from 'react';
 import './contactForm.css';
-import { FaLocationDot, FaTwitter, FaInstagram  } from "react-icons/fa6";
+import { FaLocationDot, FaTwitter, FaInstagram, FaArrowRightLong } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { BiPhoneCall } from "react-icons/bi";
 import { SiGooglecardboard } from "react-icons/si";
+import Button from 'shared/button';
 
 const ContactForm = () => {
   return (
@@ -38,8 +39,6 @@ const ContactForm = () => {
         <i className="form_icon"><SiGooglecardboard /></i>
       </div>
     </div>
-        </div>
-     
     <div className="contact-form">
       <form>
         <div className="form-group">
@@ -47,15 +46,16 @@ const ContactForm = () => {
           <input type="text" placeholder="Last Name" />
         </div>
         <div className="form-group">
-          <input type="email" placeholder="Email" />
-          <input type="text" placeholder="Phone Number" />
+          <input type="email" id='email' placeholder="Email" />
+         <input type="text" placeholder="Phone Number" />
         </div>
         <div className="form-group">
-          <label>Select Subject:</label>
-          <div className="radio-group">
+          <h3>Select Subject?</h3>
+        </div>
+        <div className="radio-group">
             <label>
               <input type="radio" name="subject" value="general" />
-                     <p> General Inquiry</p>
+                     General Inquiry
             </label>
             <label>
               <input type="radio" name="subject" value="payments" />
@@ -73,18 +73,62 @@ const ContactForm = () => {
               <input type="radio" name="subject" value="other" />
               Other
             </label>
-          </div>
+          </div> 
+          <div className='form_body'>
+            <label>
+                  Write your message
+            </label>
+            <textarea className='input_textarea' placeholder="Write your message">
+           </textarea>
         </div>
-        <div className="form-group">
-          <textarea placeholder="Write your message.."></textarea>
+        <div className='contact_form_btn'>
+           <Button
+                 style={{
+                  width: "50%",
+                  fontSize:"10px",
+                  color:'#1A1A1A',
+                  fontWeight: "bold",
+                  borderRadius: '10px',
+                  padding: "12px 34px",
+                  backgroundColor: '#dba94d',              
+              }} 
+              btnName="Send Message" 
+              rightIcon={<FaArrowRightLong size={22}/>} 
+           />
         </div>
-        <button type="submit" className="form_button">Send Message</button>
+         
       </form>
     </div>
+        </div>
+     
+    
     </div>
     
   </div>
   )
 }
 
+  // // {/* <label>Select Subject:</label>
+  //         <div className="radio-group">
+  //           <label>
+  //             <input type="radio" name="subject" value="general" />
+  //                    <p> General Inquiry</p>
+  //           </label>
+  //           <label>
+  //             <input type="radio" name="subject" value="payments" />
+  //             Payments and Fees
+  //           </label>
+  //           <label>
+  //             <input type="radio" name="subject" value="technical" />
+  //             Technical
+  //           </label>
+  //           <label>
+  //             <input type="radio" name="subject" value="registration" />
+  //             Registration
+  //           </label>
+  //           <label>
+  //             <input type="radio" name="subject" value="other" />
+  //             Other
+  //           </label>
+  //         </div> */}
 export default ContactForm;

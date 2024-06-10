@@ -1,10 +1,18 @@
 import React from 'react'
-import './headerStyle.css'
+import './headerStyle.css';
 import { Link } from 'react-router-dom'
 import Button from 'shared/button';
 import { MdOutlineMenuOpen } from "react-icons/md";
 
+
 const Header = () => {
+//The const below holds array of items
+  const nav =[ 
+    {
+      name: "Contact",
+      to: "/contact"
+    },
+    ];
   return (
     <div className='header_container'>
       {/* Menu */}
@@ -65,10 +73,4 @@ const Header = () => {
 }
 
 export default Header;
-//The const below holds array of items
-const nav =[ 
-{
-  name: "contact",
-  to: "/contact"
-},
-];
+

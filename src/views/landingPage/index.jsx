@@ -14,7 +14,8 @@ import grpG from "../../assets/grpG.svg"
 import FindYourOffice from 'components/FindYourOffice';
 import DownloadApp from 'components/DownloadApp';
 import Footer from 'shared/footer';
-// import ContactForm from 'components/ContactForm';
+import ContactForm from 'components/ContactForm';
+import FindHomes from 'components/AppartmentSpace';
 const LandingPage = () => {
   return (
     <div>
@@ -64,9 +65,10 @@ const LandingPage = () => {
         reverse
       />
     <DiscoverPlace />
+    <FindHomes />
     <FindYourOffice />
     <DownloadApp />
-    {/* <ContactForm /> */}
+    <ContactForm />
     <Footer />
 
 

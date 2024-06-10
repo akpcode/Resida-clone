@@ -1,38 +1,46 @@
 .contact_page_cont{
     width: 100%;
-    max-width: 90%;
-    height: 600px;
+    max-width: 95%;
+    height: 100%;
     display: grid;
+    justify-content: center;
+    align-items: center;
     padding:0 20px;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
     margin: 1rem;
+  
 }
-.conc-form-container {
-    
-
-    padding: 20px;
-    background-color: #f4f4f9;
-    
+.conc_form_container {
+    color: #1f4b43;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     padding-bottom: 2rem;
   }
   
   .contact-info {
-    width: 30%;
-    /* padding: 20px; */
-    background-color: #073b3a;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
     color: white;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
-    border: solid blue;
+    justify-content: flex-start;
+    align-items: center;
+   
   }
   .contact_content{
+    width: 30%;
+    height: 100vh;
     display: grid;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
-    border: solid white;
+    background-color: #073b3a;
+    padding: 1rem;
   }
   
   .contact-info h2 {
@@ -54,9 +62,9 @@
     justify-content: flex-end;
     font-size: 20px;
     cursor: pointer;
-    margin-top: 10rem;
+    margin-top: 5rem;
     padding: 2rem;
-    border: solid red;
+    
   } 
 
   .form_icon{
@@ -65,7 +73,10 @@
   
   .contact-form {
     width: 70%;
-    /* padding: 20px; */
+    height: 100%;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    margin-right: 2rem;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -79,54 +90,116 @@
   .contact-form p {
     margin-bottom: 20px;
   }
-  
   .form-group {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
   }
-  
-  .form-group input,
-  .form-group textarea {
-    width: 48%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  .form-group h3{
+    margin:1rem;
+    color: #1f4b43;
   }
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+    
+
+}
+
+.form-group input{
+  padding: 1rem;
+  margin: 10px;
+}
   
-  .form-group textarea {
-    width: 100%;
-    resize: none;
-    height: 100px;
+  .form-group input
+ {
+    width: 48%;
+    padding: 1rem;
+    border: none;
+    outline: #073b3a;
+    border-radius: 5px;
+    border-bottom: solid grey;
   }
   
   .radio-group {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 10px;
   }
   
   .radio-group label {
     display: flex;
     align-items: center;
     cursor: pointer;
+    color: #000000;
+    margin-bottom: 1rem;
   }
   
   .radio-group input {
     margin-right: 5px;
+    color: #fff;
+    background-color: #fff;
   }
   
-  .form_button {
-    background-color: #ffba08;
-    color: white;
-    padding: 10px 20px;
+  .form_body{
+    width: 100%;
+  }
+  .input_textarea{
+    color: #141115;
+    width: 100%;
+    padding: 1rem;
     border: none;
+    outline: #073b3a;
     border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+    border-bottom: solid grey;
   }
+  .contact_form_btn{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    cursor: pointer;
+   
+  } 
   
-  .form_button:hover {
-    background-color: #ffa500;
+  .contact_form_btn:hover {
+    background-color: grey;
+  } 
+  @media (max-width: 841px){
+    .contact_page_cont{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .contact-info{
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+    }
+    .contact_content{
+      width: 100%;
+      height: 70vh;
+    }
+    
+    .social-icons {
+      justify-content: flex-start;
+      font-size: 20px;
+      cursor: pointer;
+    } 
+    .contact-form{
+      width: 100%;
+      margin: 1rem;
+    }
+    .contact_form_btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      width: 100%;     
+    } 
+    .contact_form_btn:hover {
+      background-color: grey;
+    } 
   }
   
