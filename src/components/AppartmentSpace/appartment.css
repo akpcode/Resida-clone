@@ -4,7 +4,6 @@
    justify-content: center;
    align-items: center;
    margin: auto;
-   border: solid green;
 }
 .appart_text_section{
     margin:  25px;
@@ -18,15 +17,12 @@ h2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
      align-items: flex-start;
-    border: solid red;
     margin: 0;
 }
 .lekki_container{
     width: 100%;
     border-radius: 10px; 
-    align-items: center;
-    border: solid blue; 
-    
+    align-items: center;    
 }
 .lekki_img{
     width: cover;
@@ -41,7 +37,6 @@ h2{
     flex-direction: column;
     align-items: center; 
     border-radius: 10px;
-    border: solid black;
     margin: 0;
 }
 
