@@ -25,30 +25,31 @@ function FindHomes () {
                 <div className='agege_img_container'>
                     <img src={lekki2} alt="agg_img" className='agege_img' />
                     <button className='house_btn'>
+                      
                     <p>2 Properties</p>
                     <h5 className='house_text'>Agege</h5>
             </button>
                 </div>
                 <div>
                     <img src={lekki4} alt="obalande" className='obalande_img' />
-                    <button className='house_btn'>
+                    <button className='house_'>
                     <p>45 Properties</p>
                     <h5 className='house_text'>Obalende</h5>
-            </button>
+                     </button>
                 </div>
            </div>
            <div className='mainland_container'>
           
                 <div className='mainland_img_container'>
                     <img src={lekki3} alt="agg_img" className='agege_img' />
-                    <button className='house_btn'>
+                    <button className='house_b'>
                         <p>8 Properties</p>
                         <h5 className='house_text'>Lekki</h5>
             </button>
                 </div>
                 <div>
                     <img src={lekki5} alt="obalande" className='obalande_img' />
-                    <button className='house_btn'>
+                    <button className='house_bt'>
                     <p>12 Properties</p>
                     <h5 className='house_text'>Yaba</h5>
                     </button>

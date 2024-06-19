@@ -1,8 +1,10 @@
 .appart_main_container{
     width: 100vw;
-    height: 600px;
+    max-width: 85%;
    justify-content: center;
    align-items: center;
+   margin: auto;
+   border: solid green;
 }
 .appart_text_section{
     margin:  25px;
@@ -12,87 +14,64 @@ h2{
     color: #1f4b43;
 }
 .appart_container{
-    height: 70%;
-    width: 100%;
-    max-width: 70%;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* margin-left: 2rem; */
-   
-    margin: auto;
+     align-items: flex-start;
+    border: solid red;
+    margin: 0;
 }
 .lekki_container{
-    width: 250px;
-    height: 70%;
-    border-radius: 10px;  
+    width: 100%;
+    border-radius: 10px; 
+    align-items: center;
+    border: solid blue; 
     
 }
 .lekki_img{
-    height: 100%;
-    width: 100%;
+    width: cover;
     border-radius: 10px;
    
 }
 
-.agege_container {
-    width: 80%;
-    height: 70%;
+.agege_container,
+.mainland_container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center; 
     border-radius: 10px;
-    margin-left: 5px;
+    border: solid black;
+    margin: 0;
 }
 
 .agege_img_container, 
 .agege_container > div {
-    width: 70%; 
-    height: 50%;
+    width: 100%; 
     display: flex;
     align-items: center;
     border-radius: 10px;
-    margin-bottom: 8px;
+   
    
     
 }
 
 .agege_img, 
 .obalande_img {
-    width: cover;
-    height: 100%;
+    width: 100%;
     border-radius: 10px;
-    margin-top:10px;
+    margin-bottom: 10px;
 } 
 
-
-.mainland_container{
-        width: 80%;
-        height: 70%;
-        display: flex;
-        flex-direction: column;  
-        align-items: center;
-        border-radius: 10px;  
-         
-}
 .mainland_img_container, 
 .mainland_container > div {
     width: 100%; 
-    height: 50%;
     display: flex;
     align-items: center;
     border-radius: 10px;
-   margin-bottom: 8px;
   
 }
 
-.agege_img, 
-.obalande_img {
-    width: cover;
-    height: 100%; 
-    margin-top:10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
 .house_button {
     transform: translate(0%, -160%);
     background-color: rgba(0, 0, 0, 0.4); 
@@ -110,7 +89,7 @@ h2{
     font-size: 16px; 
 }
 .house_btn {
-    transform: translate(-270%, 250%);
+    transform: translate(-450%, 130%);
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     height: 58.69px;
@@ -121,6 +100,40 @@ h2{
     text-align: left;
 }
 
+.house_ {
+    transform: translate(-320%, 130%);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    height: 58.69px;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: left;
+}
+.house_b {
+    transform: translate(-450%, 130%);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    height: 58.69px;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: left;
+}
+.house_bt {
+    transform: translate(-420%, 130%);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 120px;
+    height: 58.69px;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: left;
+}
 .house_text{
     font-size: 16px; 
 }
@@ -133,7 +146,7 @@ h2{
       display: flex;
       justify-content: flex-start;
       flex-direction: column;
-      height: 2300px;
+      height: 1800px;
       max-width: 100%;
     }
    .appart_container{
@@ -143,23 +156,24 @@ h2{
     width: fit-content;
    }
    .lekki_container{
-    width: max-content;
-    height: 50vh;
-    padding-right: 2rem;
-    margin-bottom: 10px;
+    width: 95%;
+    margin: 0 2rem;
+    
 }
 .lekki_img{
-    height: 50vh;
-    width: 100%;
+    width: cover;
+    margin-right: 25px;
 
 }
 
-   .agege_container {
+   .agege_container, 
+   .mainland_container{
     width: 95%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center; 
+    margin: 0 2rem;
 }
 
   }
