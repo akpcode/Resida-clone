@@ -3,7 +3,7 @@ import './headerStyle.css';
 import { Link } from 'react-router-dom'
 import Button from 'shared/button';
 import { MdOutlineMenuOpen } from "react-icons/md";
-import ContactPage from 'views/Contact'; 
+import { ContactPage } from 'views/contact';
 
 const Header = () => {
 //The const below holds array of items
